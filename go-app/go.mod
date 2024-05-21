@@ -1,1 +1,1 @@
-module github.com/octopart/interview-api-parts/go-app
+module github.com/octopart/interview-octo-backend/go-app

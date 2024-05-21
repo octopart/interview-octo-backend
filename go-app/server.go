@@ -5,10 +5,10 @@ import (
     "log"
     "net/http"
 
-    utils "github.com/octopart/interview-api-parts/go-app/utils"
+    utils "github.com/octopart/interview-octo-backend/go-app/utils"
 )
 
-// Helper fucntion for sample json
+// Helper function for mocked data
 func generateJson() []byte {
     return utils.PartOffers()
 }
