@@ -1,0 +1,6 @@
+﻿services:
+  search:
+    image: search
+    build:
+      context: .
+      dockerfile: Search/Dockerfile

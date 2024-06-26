@@ -1,8 +1,3 @@
-import json
-
-# Helper function for mocked data
-def part_offers():
-    data = '''
 {
   "data": [
     {
@@ -215,6 +210,3 @@ def part_offers():
     }
   ]
 }
-    '''
-    print(data)
-    return data

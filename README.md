@@ -1,6 +1,6 @@
 # Interview API Excercise
 
-There are two versions of the excercise, golang and python, you may use either.
+There are three versions of the exercise: Golang, Python, and C#. You may use any of these.
 
 To spin up the server, you can either run it locally or within docker.
 
@@ -26,4 +26,16 @@ docker-compose up
 ### Run the go-app locally
 ```shell
 flask run --debug
+```
+
+## C# (ASP.NET) Application
+
+### Run the csharp-app within docker
+```shell
+docker-compose build
+docker-compose up
+```
+### Run the csharp-app locally
+```shell
+dotnet run --project Search
 ```
