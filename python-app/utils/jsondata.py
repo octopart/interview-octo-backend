@@ -8,7 +8,7 @@ def part_offers():
     {
       "part": {
         "id": "38945990",
-        "mpn": "ACS770ECB-200U-PFF-T",
+        "partName": "ACS770ECB-200U-PFF-T",
         "sellers": [
           {
             "company": {
@@ -107,7 +107,7 @@ def part_offers():
     {
       "part": {
         "id": "14377977",
-        "mpn": "RMD-53-66",
+        "partName": "RMD-53-66",
         "sellers": [
           {
             "company": {
@@ -181,7 +181,7 @@ def part_offers():
     {
       "part": {
         "id": "82828282",
-        "mpn": "RN42XVP-IRM",
+        "partName": "RN42XVP-IRM",
         "sellers": [
           {
             "company": {
@@ -216,5 +216,4 @@ def part_offers():
   ]
 }
     '''
-    print(data)
     return data
