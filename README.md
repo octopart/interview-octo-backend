@@ -6,24 +6,30 @@ To spin up the server, you can either run it locally or within docker.
 
 ## Golang Application
 
-### Run the go-app within docker 
+### Run the go-app within docker
+
 ```shell
 docker-compose build
 docker-compose up
 ```
+
 ### Run the go-app locally
+
 ```shell
 go run server.go
 ```
 
 ## Python (Flask) Application
 
-### Run the python-app within docker 
+### Run the python-app within docker
+
 ```shell
 docker-compose build
 docker-compose up
 ```
-### Run the go-app locally
+
+### Run the python-app locally
+
 ```shell
 flask run --debug
 ```
@@ -31,11 +37,29 @@ flask run --debug
 ## C# (ASP.NET) Application
 
 ### Run the csharp-app within docker
+
 ```shell
 docker-compose build
 docker-compose up
 ```
+
 ### Run the csharp-app locally
+
 ```shell
 dotnet run --project Search
+```
+
+## Node.js (Express) Application
+
+### Run the node-app within docker
+
+```shell
+docker-compose build
+docker-compose up
+```
+
+### Run the node-app locally
+
+```shell
+npm run dev
 ```
